@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.djyy.gptvillagermain.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "gptvillagemain.refmap.json",
+  "plugin": "com.djyy.gptvillagermain.mixin.MixinPlugin",
+  "mixins": [
+    "MerchantScreen"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
